@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Socket Nightmare</title>
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="control col-md-1">
+                <button type="button" id='init' name="button" class="btn btn-success">INIT</button>
+                <button type="button" id='type' name="button" class="btn btn-primary">TYPE</button>
+                <button type="button" id='click' name="button" class="btn btn-primary">CLICK</button>
+                <button type="button" id='getinfo' name="button" class="btn btn-primary">GET INFO</button>
+                <button type="button" id='end' name="button" class="btn btn-danger">END</button>
+            </div>
+            <p id="result" class="col-md-4 lead"></p>
+        </div>
+    </div>
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
